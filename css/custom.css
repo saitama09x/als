@@ -1,0 +1,451 @@
+.modal {
+    left: 33%;
+    z-index: 1050;
+    width: 75%;
+}
+.modal-sm {
+    left: 50% !important;
+    z-index: 1000 !important;
+    width: 560px !important;
+}
+.hide{
+    display: none;
+}
+.no-margin{
+    margin: 0px !important;
+}
+.no-padding{
+    padding: 0px !important;
+}
+.padding{
+    padding: 15px;
+}
+.dataTables_filter{
+    top: 0px;
+}
+.text-left {
+    text-align: left !important;
+}
+button:disabled {
+    background: #b7b7b7 !important;
+    cursor: not-allowed !important;
+}
+a#Table_Student_List_Subject_next,a#Table_Student_List_Subject_previous {
+    background: #dedede;
+    padding: 5px 20px;
+    color: #666;
+    margin-left: 5px;
+}
+div#Table_Student_List_Subject_wrapper {
+    padding-top: 47px;
+}
+div#Table_Student_List_Subject_length {
+    display: none;
+}
+div#Table_Student_List_Subject_paginate {
+    display: none;
+}
+td.center {
+    text-align: center;
+}
+input[type="text"].header_input {
+    padding: 20px 12px !important;
+    font-size: 18px  !important;
+}
+.assessment {
+    padding: 25px;
+}
+.question label.control-label {
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+b.number {
+    background: #6b6b6b;
+    padding: 10px;
+    border-radius: 32px 11px;
+    font-size: 15px;
+    color: #fff;
+}
+b.number:hover{
+    background: #e66363 !important;
+    padding: 10px 15px !important;
+}
+.assessment .choices {
+    padding: 5px 25px;
+}
+.multiplechoice .choices {
+    display: inline-block;
+}
+.multiplechoice .letter_choices {
+    width: 50%;
+    float: left;
+    display: flex;
+}
+.letter_choices label.control-label {
+    padding-top: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.letter_choices input[type="text"] {
+    width: 75%;
+}
+.checkbox_choice input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+label.checkbox_choice {
+    font-size: 16px;
+}
+input.answer_check {
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.multiplechoice .choices {
+    display: inline-block;
+    padding: 5px 25px;
+}
+.true_false button.btn {
+    margin: 0px 15px;
+}
+.true_false button.btn.active {
+    background: #6eb777;
+    color: #ffffff;
+    font-weight: 600;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+.question textarea.span11 {
+    width: 100%;
+    height: 70px;
+}
+.letter_choices button.btn {
+    height: 31px;
+}
+.selected {
+    background: #6eb777 !important;
+    color: #fff !important;
+    height: 30px !important;
+}
+
+
+.choices_btn_list {
+    margin: 10px 30px;
+    display: inline-block;
+    text-align: right;
+    width: 95%;
+}
+.question_and_answer li {
+    list-style-type: decimal;
+    font-size: 15px;
+}
+.question_and_answer p.answer {
+    font-size: 13px !important;
+}
+label.answer_label {
+    color: #198a23;
+    font-weight: 700;
+}
+.ui-timepicker-standard {
+    z-index: 1001 !important;
+}
+.datepicker {
+    z-index: 1001 !important;
+}
+.learningmaterials img {
+    padding: 9px;
+    border: 2px solid #d8d8d8;
+}
+.fileList {
+    display: flex;
+    margin-bottom: 27px !important;
+}
+.file {
+    text-align: center;
+    border: 1px solid #cecece;
+    width: 8%;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.bg_lg {
+    background: #28b779 !important;
+    color:#ffffff !important;
+}
+.bg_low_lg {
+    background: #d6fddf !important;
+    color:#000000 !important;
+}
+.bg_ly {
+    background: #d0c860 !important;
+    color:#4e4c4c !important;
+}
+.bg_low_ly {
+    background: #efe99a !important;
+    color:#4e4c4c !important;
+}
+.bg_w {
+    background: #FFFFFF !important;
+}
+.bg_lo {
+    background: #da542e;
+    color: #FFFFFF !important;
+}
+.file label {
+    margin-top: 4px;
+    font-size: 12px;
+}
+.file:hover {
+    background: #f3f3f3;
+}
+.month-label hr {
+    margin: 0 0 20px 0;
+    border: 0;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #ffffff;
+}
+.preview_section img {
+    width: 50%;
+}
+.preview_section .file-thumb {
+    padding: 10px 35px;
+    text-align: center;
+}
+.preview_section .file-info {
+    padding: 12px 35px;
+}
+.table.no-border tr:hover {
+    background: none;
+}
+.table.no-border td {
+    border: none;
+}
+.text-center {
+    text-align: center !important;
+}
+.main-box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto !important;
+    width: 90% !important;
+    float: none !important;
+    margin-bottom: 5px !important;
+}
+.box-title {
+    margin: auto !important;
+    float: none !important;
+    width: 80% !important;
+}
+.box-body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.guidelines td {
+    vertical-align: baseline !important;
+    border-top: none !important;
+    color: #81c579;
+    font-size: 20px;
+}
+.guidelines {
+    margin: 50px 0px;
+    border: solid 1px #e4e4e4;
+    padding: 25px;
+}
+.box-footer {
+    margin-bottom: 25px;
+}
+.side-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.box_time,.side-box-meta {
+    border: solid 1px #d4d4d4;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.box-body .question {
+    text-align: left;
+    padding: 25px;
+    font-size: 16px;
+}
+.choices {
+    padding: 25px;
+}
+.choices ul {
+    list-style: none;
+}
+.choices li {
+    padding-bottom: 10px;
+}
+.choices button.btn {
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.choices button.btn:hover {
+    background: #99d4ae;
+}
+
+.loading_css {
+    width: 50%;
+    margin: auto;
+}
+.loading_css h3 {
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}
+div#questionHolder {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+#choicesHolder td {
+    border: none;
+}
+.timerunner{
+    text-align: center !important;
+    padding: 10px 0;
+}
+button#next_question {
+    margin-right: 30px;
+}
+button#next_question:disabled {
+    background: #ababab;
+}
+.AssessmentResult_inner {
+    width: 50%;
+    margin: auto;
+}
+.alert-normal {
+    color: #404040;
+}
+.alert-normal {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.alert-danger, .alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+.AssessmentResult_View {
+    width: 100%;
+    margin: auto;
+}
+#resizeWidht:hover {
+    background: #e8e8e8;
+}
+#resizeWidht {
+    cursor: pointer;
+}
+#content {
+     padding-bottom: 0px !important; 
+     min-height: 895px;
+
+}
+#content.SpreadSheets {
+    height: 935px;
+}
+.control-group.inline-group {
+    display: inline-flex;
+}
+.inline-group label.control-label {
+    padding-top: 0px;
+}
+.sheet-header {
+    display: flex;
+    padding: 5px;
+}
+
+hr {
+     border-top: none; 
+     border-bottom: none; 
+}
+
+.message_container .controls {
+    margin-left: 0 !important;
+}
+.messageList {
+    height: 750px;
+    overflow: auto;
+}
+.message .user-info {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.message .short_message {
+    font-size: 11px;
+}
+li.message_holder:hover {
+    background: #e8e8e8;
+    cursor: pointer;
+}
+.message_read .icon-trash {
+    margin: 15px !important;
+    background: #cccccc;
+    padding: 10px !important;
+}
+.message_reply {
+    background: #fff;
+    padding: 10px;
+    margin: 0 10px;
+}
+iframe.wysihtml5-sandbox {
+    border-color: rgb(255, 255, 255) !important;
+}
+
+.message_compose {
+    padding: 12px;
+    background: #fff;
+}
+
+.message_compose .select2-container-multi .select2-choices {
+    /* background-color: #fff; */
+     background-image:none; 
+     background-image:none; 
+    background-image:none !important;
+     border:none !important; 
+     box-shadow: none !important;
+}
+.message_compose input {
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
+.message_holder .remove {
+    background: none;
+    border: none;
+    color: #504d4d;
+}
+li.message_holder.unread {
+    background: #e2e2e2;
+}
+.message.full {
+    background: #ffffff;
+    padding: 10px;
+}
+.message.full hr {
+    border-bottom: solid 1px #e8e8e8;
+    margin: 0px;
+}
+.reply_message_input {
+    width: 100% !important;
+}
+#worksheet_manage #DataTables_Table_0_length,#worksheet_manage #worksheetsTable_length,#worksheet_manage #StudentAccessedTable_length {
+    display: none;
+}
+h6.headerWithDescript {
+    margin: 0;
+}
+.dataTables_wrapper select {
+    width: 90px;
+}
