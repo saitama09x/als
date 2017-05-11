@@ -95,7 +95,9 @@ function FILERINIT(question_id){
 					new_file_name = JSON.parse(data)["fullname"],
 					stored_file = JSON.parse(data)["stored"],
 					filerKit = inputEl.prop("jFiler");
-					
+				
+				var extension = JSON.parse(data)["files"].metas[0].extension;	
+
 				var form_input = $("<input>");
 				form_input.attr({"type" : "hidden", "name" : "fileId[]"});
 				form_input.val(stored_file);
@@ -105,6 +107,12 @@ function FILERINIT(question_id){
 				form_input = $("<input>");
 				form_input.attr({"type" : "hidden", "name" : "fileId_type[]"});
 				form_input.val(_this_type);
+				var form_action = $(".form-actions");
+				form_action.append(form_input);
+
+				form_input = $("<input>");
+				form_input.attr({"type" : "hidden", "name" : "file_extension[]"});
+				form_input.val(extension);
 				var form_action = $(".form-actions");
 				form_action.append(form_input);
 
