@@ -148,6 +148,10 @@ include 'init_include.php';
 <!--end-main-container-part-->
 
 <!--Footer-part-->
+<div id="dialog_wrapper">
+<div id="dialog_pdf">
+<iframe src="#" id="load_pdf" width="500" ></iframe>
+</div>
 
 <div class="row-fluid">
   <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
@@ -156,7 +160,7 @@ include 'init_include.php';
 <!--end-Footer-part-->
 
 <script src="js/jquery.min.js"></script> 
-<script src="js/jquery.ui.custom.js"></script> 
+<script src="js/jquery-ui.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/bootstrap-colorpicker.js"></script> 
 <script src="js/bootstrap-datepicker.js"></script> 
@@ -245,6 +249,39 @@ function GetSelectedSheet(){
     });
   });
 }
+
+$( "#dialog_pdf" ).dialog({
+  autoOpen: false,
+  minHeight : $(document).height(),
+  minWidth : $(document).width(),
+  show: {
+    effect: "blind",
+    duration: 1000
+  },
+  hide: {
+    effect: "explode",
+    duration: 1000
+  }
+});
+
+$("#StudentAccessedTable").on("click", ".studentsheet", function(){
+    var id = $(this).data("id");
+    $.ajax({
+          type: "POST",
+          url: "request_.php",
+          data: {
+                'request_code'  : 6137,
+                'id'  : id
+          },
+          cache: false,
+          success: function(result){
+              $("#dialog_pdf").dialog( "open" );
+              $("#load_pdf").attr("src", base_url + "/uploader_asset/php/uploads/" + result);
+              $("#load_pdf").attr({"width" : $(document).width(), 
+                "height" : $(document).height() })
+          }
+    });
+});
 
 </script>
 </body>

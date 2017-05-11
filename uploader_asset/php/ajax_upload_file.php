@@ -28,7 +28,7 @@
         $files = $data['data'];
 
         echo json_encode(array("fullname" => $files['metas'][0]['name'], 
-            "stored" => $hash_time));
+            "stored" => $hash_time, "files" => $files));
     }
 
     if($data['hasErrors']){
