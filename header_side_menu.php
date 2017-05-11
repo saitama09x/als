@@ -20,6 +20,7 @@
 
 <link rel="stylesheet" href="css/colorpicker.css" />
 <link rel="stylesheet" href="css/datepicker.css" />
+<link rel="stylesheet" href="css/jquery-ui.min.css" />
 <link rel="stylesheet" href="css/uniform.css" />
 <link rel="stylesheet" href="css/select2.css" />
 <link rel="stylesheet" href="css/bootstrap-wysihtml5.css" />
@@ -31,6 +32,10 @@
 
  <link href="uploader_asset/css/jquery.filer.css" rel="stylesheet">
   <link href="uploader_asset/css/themes/jquery.filer-dragdropbox-theme.css" rel="stylesheet">
+
+  <script>
+      var base_url = "http://<?php echo $_SERVER['SERVER_NAME'] ?>/als";
+  </script>
 </head>
 <body  id="<?php echo GetCurrentPageName();?>">
 
